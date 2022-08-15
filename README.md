@@ -1,1 +1,8 @@
-# DeepLearning-Marketing_Campaign
+# Objective
+The objective in this study is to create a binary classifition model with neural nets to predict if the customer will accept the offer in a marketing campaign or not. Also to understand what determines this end result by looking at the feature improtance of the model.
+
+# Data
+This dataset is from Kaggle called [Marketing Campaign](https://www.kaggle.com/datasets/rodsaldanha/arketing-campaign). This data dataset contains 29 columns and 2240 rows, covering information around time the customer was with the company, average spending in different product, number web visits, etc. The target variable is Response, a binary column indicating whether the customer accepted the offer or not.
+
+#   Modeling and Conclusion
+In this section, three deep learning variations were attempted. The objective was to see which neural network variation works best by comparing the accuracy score. We tested the outcomes against the target feature to evaluate models.  We tested neural network with one layer sigmoid, two layers sigmoid, and two layers relu. Following the modeling analysis, the results showed that the two layers sigmoid network structure yeilds the best result, with an accuracy score of 88.9%, whereas the other two models scored almost the same at around 87%.  As such, based on this study, we recommand using the two layers sigmoid structure to build out the neural network predictor. However, in previous study, this data was attempted with RandomForestClassifier and had an accuracy score of 97%. Therefore, we recommand against using deep learning techniques for this data if other options were avaliable. Lastly, we ran a feature importance analysis with the best scored model. The result shows that longer a customer has not purchased from the website is likely will accept the offer. This result also impacted by how long the customer is with the company and if the customer accepted offers in campaign number 3.
