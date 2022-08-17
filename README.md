@@ -1,5 +1,5 @@
 # Objective
-The objective in this study is to create a binary classifition model with neural nets to predict if the customer will accept the offer in a marketing campaign or not. Also to understand what determines this end result by looking at the feature improtance of the model.
+The objective in this study is to create a binary classification model with neural nets to predict if the customer will accept the offer in a marketing campaign. Also to understand what determines this end result by looking at the feature improtance of the model.
 
 # Data
 This dataset is from Kaggle called [Marketing Campaign](https://www.kaggle.com/datasets/rodsaldanha/arketing-campaign). This data dataset contains 29 columns and 2240 rows, covering information around time the customer was with the company, average spending in different product, number web visits, etc. The target variable is Response, a binary column indicating whether the customer accepted the offer or not.
